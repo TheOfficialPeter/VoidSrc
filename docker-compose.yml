@@ -8,3 +8,12 @@ services:
     restart: unless-stopped
     environment:
       - PORT=7000 
+
+  localxpose:
+    image: localxpose/localxpose:latest
+    restart: unless-stopped
+    environment:
+      - ACCESS_TOKEN=Wei8j6S0x0O6sagwRbIiTRBOZAzldbeLGgzVQrHA
+    command: tunnel http --to void-src-addon:7000
+    depends_on:
+      - void-src-addon 
