@@ -14,7 +14,7 @@ RUN npm ci --only=production
 
 # Install dependencies for TMDB-Embed-API
 WORKDIR /app/TMDB-Embed-API
-RUN npm ci --only=production
+RUN npm install --omit=dev
 WORKDIR /app
 
 # Copy app source code
