@@ -1,0 +1,24 @@
+{
+  "name": "stremio-2embed-addon",
+  "version": "1.0.0",
+  "description": "Stremio addon for 2Embed streams using TMDB-Embed-API",
+  "main": "addon.js",
+  "type": "module",
+  "scripts": {
+    "start": "node addon.js"
+  },
+  "dependencies": {
+    "appwrite": "^17.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0",
+    "stremio-addon-sdk": "^1.6.10"
+  },
+  "keywords": [
+    "stremio",
+    "2embed",
+    "streaming"
+  ],
+  "author": "",
+  "license": "MIT"
+}

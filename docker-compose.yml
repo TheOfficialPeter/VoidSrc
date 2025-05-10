@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  void-src-addon:
+    build: .
+    ports:
+      - "7000:7000"
+    restart: unless-stopped
+    environment:
+      - PORT=7000 
