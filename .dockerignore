@@ -1,7 +1,0 @@
-node_modules
-TMDB-Embed-API/node_modules
-npm-debug.log
-.git
-.gitignore
-.env
-.DS_Store 
